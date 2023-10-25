@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="SUCCESS" containsSimulation="false">
+  <ExecutionId>7f181272-f290-49bf-aab2-8e5b855dd350</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
+      <Test>
+        <Component label="COBCALC" moduleName="COBCALC" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data />
+        </Component>
+      </Test>
+      <MetaData>
+        <Component name="COBCALC" type="COBOL">
+          <INOUT />
+        </Component>
+      </MetaData>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="653232b3912e621dfc06e52e" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="IBMUSER">
+      <platformruntime database="" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://&lt;ip&gt;:&lt;port&gt;/${database}" environmenttype="BATCH" callinterface="NONE" />
+      <ExtensionData />
+      <ExtensionData componentName="cobcalc" componentId="65360ba7912e621dfc06e535">
+        <Parameter key="sourcelibrary">
+          <Value>ISPW.PLAY.STG1.LOAD</Value>
+          <Value>ISPW.PLAY.DEV1.COB</Value>
+        </Parameter>
+        <Parameter key="loadlibraries">
+          <Value>ISPW.PLAY.DEV1.LOAD</Value>
+        </Parameter>
+        <Parameter key="callinterface">
+          <Value>NONE</Value>
+        </Parameter>
+      </ExtensionData>
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="COBCALC" caseInsensitiveCompare="false" path="COBCALC.scenario">
+        <Test>
+          <Component label="COBCALC" moduleName="COBCALC" programExitVerify="value &lt; 8" rollback="false">
+            <Data />
+          </Component>
+        </Test>
+        <MetaData>
+          <Component name="COBCALC" type="COBOL">
+            <INOUT />
+          </Component>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20231023-05-32-17</Started>
+  <Ended>20231023-05-32-24</Ended>
+</XaUnitResult>

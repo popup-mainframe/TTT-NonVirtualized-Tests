@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.15.2.v20230719-1444_122?>
+<!--BMC AMI DevX Total Test 20.15.2.v20230719-1444_122 23-Oct-2023 05:32:24-->
+<testsuites>
+  <testsuite name="COBCALC.scenario" errors="0" tests="1" failures="0">
+    <testcase classname="COBCALC.scenario" name="Functional Test: COBCALC" />
+  </testsuite>
+</testsuites>

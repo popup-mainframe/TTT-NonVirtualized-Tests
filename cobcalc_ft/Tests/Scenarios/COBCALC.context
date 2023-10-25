@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="653232b3912e621dfc06e52e" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData />
+  <ExtensionData componentName="cobcalc" componentId="65360ba7912e621dfc06e535">
+    <Parameter key="sourcelibrary">
+      <Value>ISPW.PLAY.STG1.LOAD</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit path="COBCALC.scenario" />
+</ExecutionContext>

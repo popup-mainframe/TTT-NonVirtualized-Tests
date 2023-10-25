@@ -1,0 +1,41 @@
+05:32:17.347 INFO      Engine           Test Scenario execution started
+05:32:17.351 INFO      Engine           Using context settings:
+  Engine Version                : 20.15.2.v20230719-1444_122
+  Environment id                : 653232b3912e621dfc06e52e
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : BMC.POPUP-MAINFRAME.COM
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : IBMUSER
+  Use Repository Server         : true
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+05:32:17.352 INFO      Engine           Setting variables from context and context data extensions
+05:32:17.352 INFO      Engine             id: environmentId      value: 653232b3912e621dfc06e52e
+05:32:17.353 INFO      Engine             id: environmentType    value: BATCH
+05:32:17.354 INFO      Engine             id: userId             value: IBMUSER
+05:32:17.354 INFO      Engine             id: accountingInfo     value: 
+05:32:17.355 INFO      Engine             id: datasetHQL         value: 
+05:32:17.584 INFO      Component        Interpreting Component: COBCALC program:COBCALC
+05:32:17.620 INFO      BMC Popup Batch  Sending Module execution request to Host for module:COBCALC rollback:false
+05:32:18.261 INFO      HCIClient        Creating job directory /u/ibmuser/var/xatester/ibmuser/d4a274e26a2645aba4616164c8255a99
+05:32:18.860 INFO      HCIClient        Job has been started at host with JobId:JOB00764
+05:32:24.042 INFO      BMC Popup Batch  Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job IBMUSERE(JOB00764) ended with return code: 0000
+  Job name       : IBMUSERE
+  Job id         : JOB00764
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+05:32:24.085 INFO      BMC Popup Batch  Component completed with program exit: +0
+05:32:24.134 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+05:32:24.515 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+05:32:24.518 INFO      Component        Finished interpreting Component: COBCALC program:COBCALC
+05:32:24.519 INFO      Engine           Test Scenario execution ended

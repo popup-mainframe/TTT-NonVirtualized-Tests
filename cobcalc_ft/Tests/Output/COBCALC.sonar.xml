@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.15.2.v20230719-1444_122?>
+<!--BMC AMI DevX Total Test 20.15.2.v20230719-1444_122 23-Oct-2023 05:32:24-->
+<testExecutions version="1">
+  <file path="C:\Users\sandhata\BMC\Workspace\cobcalc_ft\Tests\Scenarios\COBCALC.scenario">
+    <testCase name="Functional Test: COBCALC" duration="0" />
+  </file>
+</testExecutions>

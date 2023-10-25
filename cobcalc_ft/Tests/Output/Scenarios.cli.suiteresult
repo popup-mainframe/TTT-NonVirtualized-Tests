@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuiteResult resultType="SUCCESS" containsSimulation="false">
+  <Message>Total 1 test scenarios were successfully executed</Message>
+  <Started>20231023-05-32-17</Started>
+  <Ended>20231023-05-32-24</Ended>
+  <XaUnitResults>
+    <XaUnitResult path="../Scenarios/COBCALC.context" xaUnitPath="../Scenarios/COBCALC.scenario" resultPath="COBCALC.result" containsSimulation="false" resultType="SUCCESS" duration="7167" componentUnderTest="COBCALC">
+      <CC />
+      <Message />
+      <DetailedMessage />
+    </XaUnitResult>
+  </XaUnitResults>
+</XaSuiteResult>
